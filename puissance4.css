@@ -1,0 +1,86 @@
+.plateau
+{
+    display : inline-block;
+    width : 250px;
+    height : 155px;
+    background-color : blue;
+    position : relative;
+}
+
+.celule
+{
+    display : inline-block;
+    width : 30px;
+    height : 20px;
+    position : absolute;
+}
+
+.column0
+{
+    left : 5px;
+}
+
+.column1
+{
+    left : 40px;    
+}
+.column2
+{
+    left : 75px;    
+}
+.column3
+{
+    left : 110px;    
+}
+.column4
+{
+    left : 145px;       
+}
+.column5
+{
+    left : 180px;       
+}
+.column6
+{
+    left : 215px;    
+}
+.line0
+{ 
+    top : 130px;   
+}
+.line1
+{
+    top : 105px;        
+}
+.line2
+{
+    top : 80px; 
+}
+.line3
+{
+    top : 55px;    
+}
+.line4
+{   
+    top : 30px;  
+}
+.line5
+{
+    top : 5px;   
+}
+.player0
+{
+    background-color : grey;
+}
+.player1
+{
+    background-color : green;
+}
+.player2
+{
+    background-color : red;
+}
+.column0:hover, .column1:hover, .column2:hover, .column3:hover, .column4:hover, .column5:hover, .column6:hover
+{
+    background-color : purple;
+}
